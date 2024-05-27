@@ -9,9 +9,9 @@ def tarea(id):
     
     print(f"Producto {id} intentando acceder a la base")
     with semaphore:
-        print(f"Producto {id} ha adquirido los datos")
+        print(f"Producto {id} ha adquirido los datos bancarios")
         time.sleep(2)
-        print(f"Producto {id} ha liberado los datos")
+        print(f"Producto {id} ha liberado los datos bancarios")
 
 threads = []
 for i in range(5):
