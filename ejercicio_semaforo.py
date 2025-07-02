@@ -22,3 +22,4 @@ for i in range(5):
 for thread in threads:
     thread.join()
 
+Delete this file
